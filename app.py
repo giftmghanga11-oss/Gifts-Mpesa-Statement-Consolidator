@@ -6,8 +6,8 @@ import streamlit as st
 
 from converter import build_workbook, load_branches, mapping_csv, output_name, process_zip
 
-st.set_page_config(page_title="M-Pesa Statement Consolidator", page_icon="📒", layout="wide")
-st.title("📒 M-Pesa statement consolidator")
+st.set_page_config(page_title="Gift Mwanyumba M-Pesa Statement Consolidator", page_icon="📒", layout="wide")
+st.title("📒 Gift Mwanyumba M-Pesa statement consolidator")
 st.caption("Upload a zip of branch statements and get one workbook with a sheet per branch.")
 
 zf = st.file_uploader("Zipped folder of branch statements", type=["zip"])
